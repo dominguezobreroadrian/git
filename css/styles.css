@@ -9,8 +9,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #1e3c72, #2a5298);
-    display: flex;
-    justify-content: center;
+    min-height: 100vh;   /* Permite crecer */
+    overflow-y: auto;    /* Activa scroll vertical */
     padding: 40px;
 }
 
