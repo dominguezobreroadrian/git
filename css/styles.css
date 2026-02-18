@@ -1,0 +1,94 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Contenedor principal */
+#container {
+    width: 85%;
+    max-width: 1000px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+/* Cabecera */
+#cabecera {
+    background: linear-gradient(90deg, #f12711, #f5af19);
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#cabecera #tagline {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+/* Post */
+#post {
+    padding: 30px;
+}
+
+#post h1 {
+    margin-bottom: 20px;
+    color: #2a5298;
+}
+
+/* Lista */
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 25px;
+    padding: 15px;
+    background: #f4f6fa;
+    border-left: 6px solid #2a5298;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* Preguntas */
+h3 {
+    margin-bottom: 10px;
+    color: #f12711;
+}
+
+/* Código inline */
+li {
+    font-family: Consolas, monospace;
+}
+
+/* Footer */
+#footer {
+    background: #2a5298;
+    padding: 15px;
+    text-align: center;
+}
+
+#footer img {
+    border-radius: 10px;
+}
